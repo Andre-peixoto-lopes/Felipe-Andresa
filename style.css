@@ -114,7 +114,6 @@ h2{
 }
 
 .box{
-    margin: 0px 6px;
     display: flex;
     flex-direction: column;
 }
