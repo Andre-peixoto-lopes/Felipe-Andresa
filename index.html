@@ -115,23 +115,23 @@
             <h2>Presença</h2>
             <p>Confirme aqui sua presença em nosso evento:</p>
 
-            <form action="">
+            <form action="https://api.sheetmonkey.io/form/jxj3ZNwTdYs7jep8eNsyKZ" method="post">
                 <div class="dados">
                     <span>Digite seu nome e sobrenome para identificarmos você e sua família</span>
-                    <input type="text" placeholder="Seu nome">
+                    <input type="text" name="Nome" placeholder="Seu nome">
                 </div>
 
                 <div class="dados">
                     <span>Irão aos dois eventos?</span>
-                    <input type="text" placeholder="Em qual?">
+                    <input type="text" name="Eventos" placeholder="Em qual?">
                 </div>
 
                 <div class="dados">
                     <span>Contando com você, quantas pessoas estão confirmadas?</span>
-                    <input type="number" placeholder="Qtd Pessoas">
+                    <input type="number" name="Pessoas" placeholder="Qtd Pessoas">
                 </div>
 
-                <input id="btn" type="button" value="Enviar">
+               <button id="btn" type="submit">Enviar</button>
             </form>
 
         </section>
