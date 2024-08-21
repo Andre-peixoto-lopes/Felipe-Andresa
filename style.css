@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+header{
+    border-bottom:1px solid #5e5c5c;
+    text-align: center;
+    padding: 8px;
+    font-size: 4em;
+    font-family: "Qwitcher Grypen", cursive;
+}
+
+h1, h2, span, p, li{
+    color: #73806e;
+}
+
+h1{
+    font-family: "Qwitcher Grypen", cursive; 
+    font-size: 3em;
+}
+
+h2{
+    font-family: "Qwitcher Grypen", cursive; 
+    font-size: 2em;
+}
+
+#txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#txt p{
+    max-width: 480px;
+    font-size: 1.5em;
+}
+
+#quando{
+    font-family: "Qwitcher Grypen", cursive;
+    font-size: 4em;
+}
+
+#fts{
+    margin-top: 20px;
+    display: flex;
+}
+
+#fts img{
+    width: 25%;
+    opacity: 80%;
+}
+
+#fts img:hover{
+    opacity: 100%;
+    scale: 0.97;
+    transition: ease-in-out 1s
+}
+
+#ft-1{
+    animation: scale 3s infinite ease-in-out;
+}
+
+#ft-2{
+    animation: scale 5s infinite ease-in-out;
+}
+#ft-3{
+    animation: scale 7s infinite ease-in-out;
+}
+#ft-4{
+    animation: scale 9s infinite ease-in-out;
+}
+
+#inicio{
+    padding: 12px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#inicio h2{
+    border-bottom: 1px solid #6b7280;
+}
+
+
+#contador{
+    background: #ffffff51;
+    width: 350px;
+    padding: 20px;
+    border-radius: 18px;
+    margin-top: 12px;
+    border: 1px solid #6b7280;
+}
+
+#contador span{
+    padding: 8px;
+    font-size: 1.2em;
+}
+#box span{
+    margin: 2px;
+}
+
+.box{
+    margin: 0px 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+#tempo{
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#locais h1{
+    font-size: 4em;
+}
+
+#locais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+}
+
+#igreja{
+    text-align: center;
+}
+
+#igreja a{
+    padding: 8px;
+    color: #6b7280;
+}
+
+#local-igreja{
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#local-igreja p{
+    max-width: 400px;
+    margin-top: 8px;
+    font-size: 1em;
+}
+
+iframe{
+    max-width: 355px;
+}
+
+#manual{
+    margin-top: 12px;
+    padding: 8px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#manual h2{
+    font-size: 3em;
+    font-family: "Qwitcher Grypen", cursive;
+}
+
+#manual ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#manual li{
+    font-size: 1.2em;
+    list-style: none;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+#manual i{
+    padding: 8px;
+    font-size: 1.5em;
+}
+
+@keyframes scale{
+    from{
+        scale: 1;
+        opacity: 80%;
+    }
+
+    to{
+        scale: .97;
+        opacity: 100%;
+    }
+}
+
+#presença{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: #73806e solid 2px;
+    border-radius: 8px;
+}
+
+#presença p{
+    font-size: 1.2em;
+}
+
+#presença h2{
+    font-size: 3em;
+}
+
+#presença form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    padding: 6px;
+    align-items: center;
+}
+
+.dados span{
+    font-size: 1.2em;
+    padding: 6px;
+}
+
+.dados input{
+    text-align: center;
+    padding: 12px;
+    border-radius: 12px;
+    outline: none;
+    border: 2px solid #73806e;
+    max-width: 200px;
+}
+
+#btn{
+    padding: 12px 20px;
+    color: #ffffff;
+    background-color: #73806e;
+    font-size: 1.3em;
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+}
