@@ -43,7 +43,8 @@ h2{
 
 #txt p{
     max-width: 480px;
-    font-size: 1.5em;
+    padding: 8px;
+    font-size: 1.3em;
 }
 
 #quando{
@@ -141,7 +142,7 @@ h2{
 }
 
 #igreja a{
-    padding: 8px;
+    padding: 10px;
     color: #6b7280;
 }
 
