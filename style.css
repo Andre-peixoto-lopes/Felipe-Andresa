@@ -76,17 +76,17 @@ h2{
 }
 
 #ft-1{
-    animation: scale 3s infinite ease-in-out;
+    animation: scale 5s infinite ease-in-out;
 }
 
 #ft-2{
-    animation: scale 3.5s infinite ease-in-out;
+    animation: scale 5.5s infinite ease-in-out;
 }
 #ft-3{
-    animation: scale 3s infinite ease-in-out;
+    animation: scale 5s infinite ease-in-out;
 }
 #ft-4{
-    animation: scale 3.5s infinite ease-in-out;
+    animation: scale 5.5s infinite ease-in-out;
 }
 
 #inicio{
@@ -221,6 +221,7 @@ iframe{
         scale: .98;
         opacity: 100%;
     }
+    
     90%{
         scale: .97;
         opacity: 100%;
