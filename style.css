@@ -19,6 +19,7 @@ body{
 }
 
 header{
+    width: 100%;
     border-bottom:1px solid #5e5c5c;
     text-align: center;
     padding: 8px;
