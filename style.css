@@ -8,6 +8,12 @@
 
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 body{
     background-color: #ffffff;
 }
@@ -137,16 +143,16 @@ h2{
     margin-top: 24px;
 }
 
-#igreja{
+#local{
     text-align: center;
 }
 
-#igreja a{
+#local a{
     padding: 10px;
     color: #6b7280;
 }
 
-#local-igreja{
+#locais-casamento{
     padding: 12px;
     display: flex;
     justify-content: center;
@@ -154,7 +160,7 @@ h2{
     flex-wrap: wrap;
 }
 
-#local-igreja p{
+#locais-casamento p{
     max-width: 400px;
     margin-top: 8px;
     font-size: 1em;
