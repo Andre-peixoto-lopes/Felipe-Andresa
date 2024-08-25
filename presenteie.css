@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    border-bottom:1px solid #73806e;
+    text-align: center;
+    padding: 8px;
+    color: #73806e;
+    font-size: 4em;
+    font-family: "Qwitcher Grypen", cursive;
+}
+
+h1, h2, span, p, li{
+    color: #73806e;
+}
+
+h1{
+    font-family: "Qwitcher Grypen", cursive; 
+    font-size: 3em;
+}
+
+h2{
+    font-family: "Qwitcher Grypen", cursive; 
+    font-size: 2em;
+}
+
+#pagamento{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 30px;
+    border: 1px dashed #73806e;
+    border-radius: 1em;
+}
+
+#pagamento h2{
+    font-size: 3em;
+}
+
+#pagamento p{
+    font-size: 1.2em;
+    max-width: 400px;
+    text-align: center;
+}
+
+#pagamento img{
+    margin: 30px;
+    
+}
+
+#pix p{
+    max-width: 320px;
+    padding: 8px 10px;
+    font-size: 1.1em;
+    border: 1px solid #73806e;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+#pix{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
