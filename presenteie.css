@@ -24,6 +24,11 @@ header{
     font-family: "Qwitcher Grypen", cursive;
 }
 
+header a{
+    color: #73806e;
+    text-decoration: none;
+}
+
 h1, h2, span, p, li{
     color: #73806e;
 }
