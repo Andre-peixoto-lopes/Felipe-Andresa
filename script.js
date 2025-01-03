@@ -12,11 +12,15 @@ const render = (days, hours, minutes, seconds) => {
 
 const countdown = () => {
     const now = new Date();
-
-    const weddingYear = now.getFullYear() + 1;
-    const targetDate = new Date(weddingYear, 0, 4, 16, 0, 0); // 4 de janeiro às 16:00 do próximo ano
+    const targetDate = new Date(2025, 0, 4, 16, 0, 0); 
 
     const timeLeft = targetDate - now;
+
+    if (timeLeft <= 0) {
+        render(0, 0, 0, 0); 
+        clearInterval(intervalId); 
+        return;
+    }
 
     const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
     const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
